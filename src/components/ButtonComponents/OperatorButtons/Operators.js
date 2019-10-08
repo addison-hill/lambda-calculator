@@ -8,7 +8,6 @@ import OperatorButton from "./OperatorButton";
 
 const Operators = () => {
   const [operator, setOperator] = useState(operators)
-  console.log("operators", useState(operators));
   return (
     <div className="button_container">
       {operator.map((button, index) => (

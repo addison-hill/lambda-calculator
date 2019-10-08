@@ -1,7 +1,6 @@
 import React from "react";
 
 const OperatorButton = props => {
-  console.log("operator props", props)
   return (
     <button className="operator_button">
       {props.button.char}
