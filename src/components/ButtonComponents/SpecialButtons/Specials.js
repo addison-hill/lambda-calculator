@@ -8,7 +8,6 @@ import SpecialButton from "./SpecialButton";
 
 const Specials = () => {
   const [special, setSpecial] = useState(specials)
-  console.log("specials", specials);
   return (
     <div className = "button-container">
       {special.map((button, index) => (
