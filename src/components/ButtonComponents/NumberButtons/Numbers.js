@@ -10,7 +10,6 @@ import { numbers } from '../../../data'
 
 const Numbers = () =>  {
   const [number, setNumber] = useState(numbers);
-  console.log("numbers", useState(numbers));
   return (
     <div className="button_container">
       {number.map((button, index) => (

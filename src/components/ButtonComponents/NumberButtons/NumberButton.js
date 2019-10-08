@@ -1,7 +1,6 @@
 import React from "react";
 
 const NumberButton = props => {
-  console.log("props", props);
   return (
     <button className="number_button">
       {props.button}
